@@ -1,0 +1,519 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    }
+
+    body{
+        background-color:  #ebebeb;
+    }
+:root{
+    --Amarillo: #EAC926;
+    --Azul: #03264C;
+    --Celeste: #1259c3;
+    --GrisOscuro: #666;
+    --GrisClaro: #ebebeb;
+    --Verde: #39b54a;
+}
+
+/* ESTILO DE ETIQUETAS DENTRO DE HEADER*/
+
+header{
+    background-color:  #EAC926;
+    width: 100%;
+    
+    }
+
+.uno{
+    width: 40%;
+    margin-left: 4rem;
+}
+
+input{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+    border: solid 1px black;
+}
+
+/*  .fa-magnifying-glass{
+    background-color: white;
+    margin-top: 0.1rem;
+    padding: 2px;
+    margin-left:.1rem;
+    border: black;
+    border-color: black;
+    border: solid 1px black;
+    display:flex;
+    flex-wrap: wrap;
+    background-color: white;
+    margin-left: 2rem;
+    padding: 2px;
+    border: solid 1px black  -- ESTILO LUPA*/ 
+
+
+    
+    .dos{
+        font-weight: 400;
+        text-align: center;
+        padding: 2rem;
+    
+     }
+
+     .navegador ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    }
+     
+    .navegador{
+        display: none;
+    }
+    li:hover{
+       background-color: #ebebeb;
+     
+       
+        transition: background-color .5s;
+        
+    }
+
+    .navegador a{
+        text-decoration: none;
+        color: #222222;
+        display: inline-block;
+        padding:  5px 0;
+        font-size: 17px;
+    }
+
+    
+.burger-menu{
+    background-color: #EAC926;
+    border-radius: 8px;
+    color: #FFF;
+    display: block;
+    padding: 15px 0;
+    font-size: 18px;
+    margin: auto;
+    max-width: 50px;
+    text-align: center;
+}
+ 
+
+/* ESTILOS SECTION */
+
+
+main{
+    text-align: center;
+    width:100%;
+   margin: auto;
+  
+    
+
+} 
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+article{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+   position: relative;
+   margin: 10px;
+   padding: 15px;
+   
+   
+}
+   
+   .box{
+    position: relative;
+    border-top:solid 1px #ebebeb;
+    padding: 15px;
+    
+}
+
+.fa-truck{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    color: #39b54a;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 1rem;
+    position: absolute;
+    right: 20px;
+    top: -15px; 
+    transition: all 1s;
+    transition-timing-function: ease-in;
+}
+
+article:hover .fa-truck{
+    
+        transform: rotate(-90deg);
+    }
+
+
+.descuento{
+    color: #39b54a;
+    display: flex;
+    width: 70%;
+    height: 50%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    position: relative;
+    margin: 0;
+}
+
+.descripcion{
+    color:  #434242 ;
+    text-align: left;
+    display: none;
+}
+
+article:hover .descripcion{opacity: 100%;}
+   
+
+h2{
+    font-size: 24px;
+    margin: 25px;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+
+
+img{
+    height: 200px;
+    width: 200px;
+    box-sizing: border-box;
+    
+}
+
+
+p.precios{
+    display: flex;
+    width: 30%;
+    height: 50%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    position: relative;
+    margin: 0;
+}
+
+p{
+    font-size: 16px;
+}
+
+
+
+
+
+/*li><a href="/register">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
+*/
+.fa-bars{
+ background-color:#1259c3;;
+
+}
+
+footer {
+
+    text-align: center;
+    margin-top: 5rem;
+    
+    
+}
+ 
+
+.final{
+    
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.hfinal{
+
+    font-weight: bolder;
+  
+}
+.pfinal{
+    font-size: 12px;
+}
+
+
+
+#buscador{
+    border-radius: 20%;
+    padding: 10px;
+    color: white;
+    background-color:#1259c3;
+    font-size: 2em;
+}
+
+.fa-magnifying-glass{
+    margin-top: 5rem;
+     margin-bottom: 5rem;
+     padding: 1rem;
+     margin-left: 0%;
+
+}
+
+a{
+   text-decoration: none;
+   color: black;
+}
+.fa-credit-card,
+.fa-gift,
+.fa-user-shield{
+color: #1259c3;
+font-size: 2em
+
+}
+
+.banner{
+    width:100%;
+ 
+    
+
+}
+
+.cajas{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+
+/*ESTILOS FORMULARIO DE REGISTRO */
+
+
+main form input {
+    width: 100%;
+    padding: 6px 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 0 auto 28px 0;
+    border-color: rgba(128, 128, 128, 0.482);
+}
+
+.box-button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 0 25px 0;
+}
+
+h3 {
+    font-weight: 500;
+    margin-bottom: 15px;
+    text-align: start;
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.button-opciones {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.button-opciones input {
+    width: auto;
+    flex-basis: 5%;
+    margin: 0 15px 10px 15px;
+}
+
+
+.pform{
+ padding: 15px;
+}
+
+.button-enviar {
+    padding: 10px 5px;
+    background: #1259c3;
+    color: white;
+    transition: all 1s;
+    justify-content: center;
+}
+
+.button-borrar {
+    padding: 10px 5px;
+    background: #af2020;
+    color: white;
+    transition: all 1s;
+    justify-content: center;
+}
+
+
+
+/*ESTILO LOGIN */
+
+.pform2{
+    justify-content: center;
+    margin-top: 3rem;
+   
+}
+.contenedor-login input{
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.button-enviar2{ 
+    padding: 10px 5px;
+    background: #1259c3;
+    color: white;
+    transition: all 1s;
+    justify-content: center;}
+
+
+    .button-enviar:hover{
+        transform: scale(1.1); 
+    }
+
+    .button-borrar:hover{
+        transform: scale(1.1); 
+    }
+
+
+
+
+
+
+
+@media  (min-width: 361px){
+
+    article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100)
+    }
+
+    
+
+    .descripcion{
+        display: none;
+    }
+
+    
+    .navegador{
+        display: none;
+    }
+
+}
+
+
+@media (min-width: 760px){
+
+    
+    .descripcion{
+        display: block;
+        opacity: 0%;
+        transition-property: opacity;
+        transition-duration: 0.5s;
+        transition-timing-function: linear;
+    }
+
+    .descripcion {
+        opacity: 100%;
+    }
+    .burger-menu{
+        display: none;
+    }
+    .contenedor1{
+       
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      
+    }
+
+    .uno {
+         margin-left: 2px;
+         width: 20%;
+    }
+
+    input{
+        align-self: center;
+    }
+
+    /* CLASES PARA NAVEGADOR */
+
+    .navegador{
+      
+        display: flex;
+        justify-content: space-between;
+        margin-left: 0;
+        margin-bottom: 0px;
+    }
+
+    .navegador ul{
+        display: flex;
+        
+    }
+    .navegador li{
+     margin: 0 5px;
+
+    }
+
+    .button-borrar,
+    .button-enviar{
+        max-width: 50%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    main form input {
+        width: 50%;
+        
+    }
+ .pform{
+    
+    justify-content: center;
+    text-align: center;
+ }
+
+ .pform2{
+    margin-left: 20rem;
+}
+}
+    
+    
+@media (min-width :  1200px){
+    .navegador ,
+    .contenedor1{
+        
+        max-width: 1200px;
+        margin: auto;
+    }
+
+.navegador li{
+    margin: 15px;
+}
+
+
+
+.button-borrar,
+    .button-enviar{
+        max-width: 75%;
+        display: flex;
+        justify-content: center;
+        margin-left: 15rem;
+    }
+
+    main form input {
+        width: 50%;
+        
+        
+    }
+    .pform2{
+       position: relative;
+       left: 3.8rem;
+    }
+}
