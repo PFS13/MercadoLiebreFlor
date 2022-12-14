@@ -240,6 +240,7 @@ footer {
     text-align: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
+
 }
 
 .hfinal{
@@ -414,6 +415,23 @@ h3 {
 
 @media (min-width: 760px){
 
+
+    
+footer {
+display: flex;
+    text-align: start; 
+    margin-bottom: 3rem;
+}
+.cajas{
+    text-align: center;
+    justify-content: space-between; 
+}
+
+.final{
+    position: absolute;
+   top:92rem;
+   left: 30rem;
+}
     
     .descripcion{
         display: block;
@@ -490,6 +508,22 @@ h3 {
     
     
 @media (min-width :  1200px){
+
+    footer {
+        display: flex;
+            text-align: start; 
+            margin-bottom: 3rem;
+        }
+        .cajas{
+            text-align: center;
+            justify-content: space-between; 
+        }
+        
+        .final{
+            position: absolute;
+           top:92rem;
+           left: 30rem;
+        }
     .navegador ,
     .contenedor1{
         
